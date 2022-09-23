@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+.title{
+    color: #4682b4;
+    font-family: 'Rouge Script', cursive;
+    font-size: 130px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 100px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #082b34;
+}
+#result-img{
+    width: 500px;
+    margin-bottom: 50px;
+}
+#input{
+    position: relative;
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+    top: 10px;
+}
+#input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+#button {
+    width: 100px;
+    height: 60px;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-left: 30px;
+}
